@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#container {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 1px;
+}
+
+.field {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: white;
+}
